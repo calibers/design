@@ -40,6 +40,13 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 
 **Color Variations**
 
+| Name | Hex Color
+--- | ---
+Default | #262D43
+White | #FFFFFF
+Blue Gray | #728189
+Light Gray | #D9D9DC
+
 Default, White, Blue Gray, Light Gray
 
 **iOS Example**
