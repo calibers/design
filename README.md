@@ -72,6 +72,11 @@ The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Chang
 
 The small button is typically used for support functions or in UI elements where space is more limited. *Ex: ‘Cancel' or inside modals.*
 
+Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
+--- | --- | --- | --- | --- | --- | --- | ---
+498px | 98px | 42px | Center | 30px | 8px | 1px 
+
+
 ## Pills
 
 We use pills to help emphasize entities that we present in a list. Their main function is to make the information easier to process. *Ex: 'skills' and 'interests'.*
