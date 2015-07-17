@@ -26,7 +26,7 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 **iOS Example**
 ```
  case CBFontTextTypeBigBold:
-   font = [UIFont fontWithName:@"OpenSans-Bold" size:34];
+   font = [UIFont fontWithName:@"OpenSans-Extra-Bold" size:34];
   break;
 ```
  
