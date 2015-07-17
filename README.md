@@ -17,8 +17,6 @@ Home to Caliber design documentation & assets.
  
 **2. Assets**
 
----
-
 ### Typography ###
 
 Let's talk type
