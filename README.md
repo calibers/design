@@ -68,13 +68,13 @@ The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Chang
 
 ![Large Button](/support/button-large.png "Large Button")
 
-**Dimensions**
+*Dimensions*
 
 Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 498px | 98px | 42px | Center | 30px | 8px | 1px
 
-**Variations**
+*Variations*
 
 ![Large Button Styles](/support/button-large-styles.png "Large Button Styles")
 
