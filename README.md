@@ -7,7 +7,7 @@ Home to Caliber design documentation & assets.
 **1. Design Documentation**
   * [Typography](#typography)
   * [Buttons](#buttons)
-    * [Big Button](#small-button)
+    * [Big Button](#big-button)
     * [Small Button](#small-button)
   * [Pills](#pills)
   * [Form Elements](#forms)
