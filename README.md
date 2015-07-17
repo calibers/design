@@ -4,7 +4,7 @@ Home to Caliber design documentation & assets.
 
 ## Contents
 
-**Design Documentation**
+**1. Design Documentation**
   * [Typography](#typography)
   * [Buttons]
   * [Pills]
@@ -14,6 +14,8 @@ Home to Caliber design documentation & assets.
   * [Icons]
   * [Messaging]
   * [Navigation]
+ 
+**2. Assets**
 
 ---
 
