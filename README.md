@@ -23,11 +23,11 @@ Home to Caliber design documentation & assets.
 
 We use Open Sans on both iOS and Android to stay consistent across platforms removing the need to create multiple variations while prototyping. To help ease the process of scaling fonts they're listed here in points.
 
-<!-- ![Typography](/support/typography.png "Typography") -->
+![Typography](/support/typography.png "Typography")
 
 **Base Fonts**
 
-| Name | Family | Size  |
+| Name | Family | Size  | Color Variations
 --- | --- | ---
 | Big Bold | Open Sans Extra Bold   | 17pt  |
 | Big | Open Sans | 17pt |
@@ -37,6 +37,10 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 | Small Bold | Open Sans Semi Bold | 13pt |
 | Small Italic | Open Sans Italic | 13pt |
 | Tiny | Open Sans | 11pt |
+
+** Color Variations **
+
+Default, White, Blue Gray, Light Gray
 
 **iOS Example**
 ```
