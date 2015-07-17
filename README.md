@@ -68,13 +68,14 @@ The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Chang
 
 ![Large Button](/support/button-large.png "Large Button")
 
+Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
+--- | --- | --- | --- | --- | --- | --- | ---
+498px | 98px | 42px | Center | 30px | 8px | 1px
+
 **<a id="small-button">Small Button</a>**
 
 The small button is typically used for support functions or in UI elements where space is more limited. *Ex: ‘Cancel' or inside modals.*
 
-Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
---- | --- | --- | --- | --- | --- | --- | ---
-498px | 98px | 42px | Center | 30px | 8px | 1px 
 
 
 ## Pills
