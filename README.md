@@ -72,7 +72,7 @@ Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 498px | 98px | 42px | Center | 30px | 8px | 1px
 
-![Large Button Styles](/support/button-large-style.png "Large Button Styles")
+![Large Button Styles](/support/button-large-styles.png "Large Button Styles")
 
 **<a id="small-button">Small Button</a>**
 
