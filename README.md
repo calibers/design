@@ -72,6 +72,8 @@ Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 498px | 98px | 42px | Center | 30px | 8px | 1px
 
+![Large Button Styles](/support/button-large-style.png "Large Button Styles")
+
 **<a id="small-button">Small Button</a>**
 
 The small button is typically used for support functions or in UI elements where space is more limited. *Ex: ‘Cancel' or inside modals.*
