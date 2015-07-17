@@ -27,7 +27,7 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 
 **Base Fonts**
 
-| Name | Family | Size  | Color Variations
+| Name | Family | Size  |
 --- | --- | ---
 | Big Bold | Open Sans Extra Bold   | 17pt  |
 | Big | Open Sans | 17pt |
