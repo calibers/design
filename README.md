@@ -23,6 +23,7 @@ Home to Caliber design documentation & assets.
 
 We use Open Sans on both iOS and Android to stay consistent across platforms removing the need to create multiple variations while prototyping. To help ease the process of scaling fonts they're listed here in points.
 
+###### Fonts
 
 ![Typography](/support/typography.png "Typography")
 
@@ -67,6 +68,8 @@ Light Gray | #D9D9DC
 **<a id="big-button">Big Button</a>**
 
 The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Changes’.*
+
+###### Button Format
 
 ![Large Button](/support/button-large.png "Large Button")
 
