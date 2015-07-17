@@ -23,7 +23,9 @@ Home to Caliber design documentation & assets.
 
 We use Open Sans on both iOS and Android to stay consistent across platforms removing the need to create multiple variations while prototyping. To help ease the process of scaling fonts they're listed here in points.
 
+
 ![Typography](/support/typography.png "Typography")
+
 
 **Base Fonts**
 
