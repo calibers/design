@@ -28,9 +28,13 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 | Name | Family | Size  |
 --- | --- | ---
 | Big Bold | Open Sans Extra Bold   | 17pt  |
-| Big      | Open Sans Regular   | 17pt  |
-
-
+| Big | Open Sans | 17pt |
+| Standard | Open Sans | 15pt |
+| Standard Bold | Open Sans Semi Bold | 15pt |
+| Small | Open Sans | 13pt |
+| Small Bold | Open Sans Semi Bold | 13pt |
+| Small Italic | Open Sans Italic | 13pt |
+| Tiny | Open Sans | 11pt |
 
 **iOS Example**
 ```
