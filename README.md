@@ -5,7 +5,7 @@ Home to Caliber design documentation & assets.
 ## Contents
 
 **1. Design Documentation**
-  * [Typography](###typography)
+  * [Typography](#typography)
   * [Buttons]
   * [Pills]
   * [Form Elements]
@@ -17,6 +17,6 @@ Home to Caliber design documentation & assets.
  
 **2. Assets**
 
-###Typography
+## Typography
 
 Let's talk type
