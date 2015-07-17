@@ -38,7 +38,7 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 | Small Italic | Open Sans Italic | 13pt |
 | Tiny | Open Sans | 11pt |
 
-** Color Variations **
+**Color Variations**
 
 Default, White, Blue Gray, Light Gray
 
