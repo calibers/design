@@ -53,10 +53,12 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 ## Buttons
 
 **<a id="big-button">Big Button</a>**
+
 The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Changes’.*
 
 
 **<a id="small-button">Small Button</a>**
+
 The small button is typically used for support functions or in UI elements where space is more limited. *Ex: ‘Cancel' or inside modals.*
 
 ## Pills
