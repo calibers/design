@@ -52,9 +52,9 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 
 ## Buttons
 
-**Big Button**
+**<a id="big-button">Big Button</a>**
 
-**Small Button[small-button]**
+**<a id="small-button">Small Button</a>**
 
 ## Pills
 
