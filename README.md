@@ -7,6 +7,8 @@ Home to Caliber design documentation & assets.
 **1. Design Documentation**
   * [Typography](#typography)
   * [Buttons](#buttons)
+    * [Big Button](#small button)
+    * [Small Button](#small button)
   * [Pills](#pills)
   * [Form Elements](#forms)
   * [Table Cells](#cells)
@@ -50,7 +52,9 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 
 ## Buttons
 
-Let's talk buttons
+### Big Button
+
+### Small Button 
 
 ## Pills
 
