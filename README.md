@@ -47,7 +47,6 @@ White | #FFFFFF
 Blue Gray | #728189
 Light Gray | #D9D9DC
 
-Default, White, Blue Gray, Light Gray
 
 **iOS Example**
 ```
