@@ -29,7 +29,12 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
    font = [UIFont fontWithName:@"OpenSans-Extra-Bold" size:17];
   break;
 ```
- 
+
+**Android Example**
+```
+<dimen name=“big_bold_font_size" android:textStyle="bold">17sp</dimen>
+```
+
 ## Buttons
 
 Let's talk buttons
