@@ -24,10 +24,11 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 ![Typography](/support/typography.png "Typography")
 
 *iOS Code Sample*
+```
  case CBFontTextTypeBigBold:
-            font = [UIFont fontWithName:@"OpenSans-Light" size:30];
-            break;
- 
+   font = [UIFont fontWithName:@"OpenSans-Light" size:30];
+  break;
+```
  
 ## Buttons
 
