@@ -66,6 +66,7 @@ Light Gray | #D9D9DC
 
 The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Changes’.*
 
+![Large Button](/support/button-large.png "Large Button")
 
 **<a id="small-button">Small Button</a>**
 
@@ -73,7 +74,7 @@ The small button is typically used for support functions or in UI elements where
 
 ## Pills
 
-Let's talk pills
+We use pills to help emphasize entities that we present in a list. Their main function is to make the information easier to process. *Ex: 'skills' and 'interests'.*
 
 ## Forms
 
@@ -93,8 +94,8 @@ Let's talk messaging
 
 ## Navigation
 
-Let's talk navigation
+We respect native navigation patterns in both iOS and Android. As a result each the biggest difference between the two clients is the appearance and behavior of the main navigation.
 
 ## Icons
 
-Let's talk icons
+For the most part we use the same icons for iOS and Android. Sharing is an example of when we have different icons for both platforms since people are conditioned to a specific icon for that purpose.
