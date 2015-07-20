@@ -12,6 +12,9 @@ Home to Caliber design documentation & assets.
   * [Pills](#pills)
   * [Form Elements](#forms)
   * [Table Cells](#cells)
+    * [Full (Lists of people contacts, conversation lists)](#person-cell)
+    * [Search (List attributes, people)](#search-cell)
+    * [Simple (No images)](#form-cell)
   * [Dialogs, Modals, & Alerts](#dialogs)
   * [Icons](#icons)
   * [Messaging](#messaging)
@@ -99,7 +102,15 @@ Let's talk forms
 
 ## Cells
 
-Let's talk cells
+**<a id="person-cell">Full</a>**
+![People Cell](/support/person-cell.png "List of people")
+
+**<a id="search-cell">Search</a>**
+![Search Cell](/support/search-cell.png "Search list")
+
+**<a id="search-cell">Simple</a>**
+![Form Cell](/support/form-cell.png "Form list")
+
 
 ## Dialogs
 
