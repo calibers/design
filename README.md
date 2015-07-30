@@ -117,7 +117,7 @@ The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Chang
 
 Outer Radius | Inner Radius | Vertical Margin | Horizontal Margin | Alignment | Max. No. / Row |
 --- | --- | --- | --- | --- | --- | --- | ---
-49px | 40px | 42px | 30px | Center | 18px | 4
+49px | 40px | 42px | 30px | Center | 4
 
 *Variations*
 
