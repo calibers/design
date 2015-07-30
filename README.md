@@ -14,7 +14,7 @@ Home to Caliber design documentation & assets.
   * [Form Elements](#forms)
   * [Cells](#cells)
   * [Dialogs, Modals, & Alerts](#dialogs)
-    * [Basic Modal (Save Search)](#basicmodal)
+    * [Basic Modal](#basicmodal)
     * [Share Sheet](#sharesheet)
     * [Attachments](#attachments)
   * [Icons](#icons)
@@ -177,18 +177,22 @@ This is used when several options are listed, but respective images are not nece
 ## Dialogs
 
 There are three types of dialogs:
-###### Basic Modal (Save Search)
-This is used whenever a specific user is mentioned.<br/>
-*Ex. When displaying a user's open chats.*
-**<a id="basicmodal">Basic Modal (Save Search)</a>**
+###### Basic Modal
+This is used whenever a user would like to save something.
+<br/>
+*Ex. Saved Searches.*
+<br/>
+**<a id="basicmodal">Basic Modal</a>**
 ![Modal](/support/modal.png "Modal")
+<br/>
 ###### Share Sheet
-This is used when several options are listed.<br/>
-*Ex. On the home screen, as well as within the search interface.*
+This is used whenever a user would like to share another's profile.
+<br/>
 **<a id="sharesheet">Share Sheet</a>**
 ![Share Sheet](/support/sharesheet.png "Share Sheet")
 ###### Attachments
-This is used when several options are listed, but respective images are not necessary.
+This is used whenever a user would like to append cloud files to messages.
+<br/>
 **<a id="Attachments">Attachments</a>**
 ![Attachments](/support/attachments.png "Attachments")
 
