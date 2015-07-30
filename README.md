@@ -18,6 +18,11 @@ Home to Caliber design documentation & assets.
     * [Share Sheet](#sharesheet)
     * [Attachments](#attachments)
   * [Icons](#icons)
+    * [Tab Bar](#icons-tab-passive)
+    * [Profile](#sharesheet)
+    * [Attachments](#attachments)
+    * [Messaging](#attachments)
+    * [Utility](#utility)
   * [Messaging](#chat)
   * [Navigation](#navigation)
 
@@ -150,10 +155,10 @@ Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Bord
 
 There are two types of forms:
 ###### Upload Image
-This is used to change a user or organization's profile photo.<br/>
+This is used to change a user or organization's profile photo.<br/><br/>
 *Ex. On the 'Edit Profile' screen*
 ###### Text Field
-This is used when entering or editing any amount of text.<br/>
+This is used when entering or editing any amount of text.<br/><br/>
 *Ex. On the 'Edit Profile' screen*
 
 **<a id="cells">Form Format</a>**
@@ -163,10 +168,10 @@ This is used when entering or editing any amount of text.<br/>
 
 There are three types of display cells:
 ###### Full
-This is used whenever a specific user is mentioned.<br/>
+This is used whenever a specific user is mentioned.<br/><br/>
 *Ex. When displaying a user's open chats.*
 ###### Search
-This is used when several options are listed.<br/>
+This is used when several options are listed.<br/><br/>
 *Ex. On the home screen, as well as within the search interface.*
 ###### Simple
 This is used when several options are listed, but respective images are not necessary.
@@ -179,29 +184,27 @@ This is used when several options are listed, but respective images are not nece
 There are three types of dialogs:
 ###### Basic Modal
 This is used whenever a user would like to save something.
-<br/>
+<br/><br/>
 *Ex. Saved Searches.*
-<br/>
+<br/><br/>
 **<a id="basicmodal"></a>**
 ![Modal](/support/modal.png "Modal")
-<br/>
+<br/><br/>
 ###### Share Sheet
 This is used whenever a user would like to share another's profile.
-<br/>
+<br/><br/>
 **<a id="sharesheet"></a>**
 ![Share Sheet](/support/sharesheet.png "Share Sheet")
 ###### Attachments
 This is used whenever a user would like to append cloud files to messages.
-<br/>
+<br/><br/>
 **<a id="Attachments"></a>**
 ![Attachments](/support/attachments.png "Attachments")
 
 ## Messaging
 
-This is used whenever a user would like to save something.
-<br/>
-*Ex. Saved Searches.*
-<br/>
+This is the standard messaging interface.
+<br/><br/>
 **<a id="chat"></a>**
 ![chat](/support/chat.png "Chat")
 
@@ -209,6 +212,53 @@ This is used whenever a user would like to save something.
 
 We respect native navigation patterns in both iOS and Android. As a result each the biggest difference between the two clients is the appearance and behavior of the main navigation.
 
+###### Layout
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-layout"></a>**
+![Icons Layout](/support/icons-layout.png "Icons Layout")
+
 ## Icons
 
 For the most part we use the same icons for iOS and Android. Sharing is an example of when we have different icons for both platforms since people are conditioned to a specific icon for that purpose.
+
+###### Tab Bar
+For Fundamental Navigation
+<br/><br/>
+**<a id="icons-tab-passive"></a>**
+
+![Passive Tab](/support/icons-tab-passive.png "Passive Tab")
+<br/><br/>
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-tab-active"></a>**
+![Active Tab](/support/icons-tab-active.png "Active Tab")
+
+###### Profile
+For interacting with you or another user or organization's profile.
+<br/><br/>
+**<a id="icons-profile-outline"></a>**
+![Profile Outline](/support/icons-profile-outline.png "Profile Outline")
+<br/><br/>
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-profile-solid"></a>**
+![Profile Solid](/support/icons-profile-solid.png "Profile Solid")
+
+###### Messaging
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-messaging"></a>**
+![Attach Messaging](/support/icons-messaging.png "Messaging Icons")
+
+###### Attachments
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-attach"></a>**
+![Attach Icons](/support/icons-attach.png "Attach Icons")
+
+###### Utility
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-utility"></a>**
+![Utility Icons](/support/icons-utility.png "Utility Icons")
