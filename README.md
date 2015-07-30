@@ -150,12 +150,12 @@ Let's talk forms
 ## Cells
 
 There are three types of display cells:
-*Full*
+###### Full
     This is used for
-*Search*
-    [Full]
-*Simple*
-    [Full]
+###### Search
+    This is used for
+###### Simple
+    This is used for
 
 **<a id="display-cells">Display Cells</a>**
 ![Display Cells](/support/cells-display.png "Display Cells")
