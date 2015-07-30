@@ -113,6 +113,10 @@ The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Chang
 
 ![Portal Button](/support/button-portal.png "Portal Button")
 
+**<a id="portal-button">Portal Button</a>**
+
+The portal button is for 3rd party integrations. *Ex. Attaching cloud files to chat messages.*
+
 *Dimensions*
 
 Outer Radius | Inner Radius | Vertical Margin | Horizontal Margin | Alignment | Max. No. / Row |
