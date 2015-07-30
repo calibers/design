@@ -154,7 +154,7 @@ This is used when entering or editing any amount of text.
 *Ex. On the 'Edit Profile' screen*
 
 **<a id="cells">Form Format</a>**
-![Form Format](/support/forms.png "Forms")
+![Format](/support/forms.png "Forms")
 
 ## Cells
 
