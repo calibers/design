@@ -29,7 +29,7 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 ![Typography](/support/typography.png "Typography")
 
 
-**Base Fonts**
+###### Base Fonts
 
 | Name | Family | Size  |
 --- | --- | ---
@@ -42,7 +42,7 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 | Small Italic | Open Sans Italic | 13pt |
 | Tiny | Open Sans | 11pt |
 
-**Color Variations**
+###### Color Variations
 
 | Name | Hex Color
 --- | ---
@@ -52,14 +52,14 @@ Blue Gray | #728189
 Light Gray | #D9D9DC
 
 
-**iOS Example**
+###### iOS Example
 ```
  case CBFontTextTypeBigBold:
    font = [UIFont fontWithName:@"OpenSans-Extra-Bold" size:17];
   break;
 ```
 
-**Android Example**
+###### Android Example
 ```
 <dimen name=“big_bold_font_size" android:textStyle="bold">17sp</dimen>
 ```
@@ -74,13 +74,13 @@ The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Chang
 
 ![Large Button](/support/button-large.png "Large Button")
 
-*Dimensions*
+###### Dimensions
 
 Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 498px | 98px | 42px | Center | 30px | 8px | 1px
 
-*Variations*
+###### Variations
 
 ![Large Button Styles](/support/button-large-styles.png "Large Button Styles")
 
@@ -92,13 +92,13 @@ The small button is typically used for support functions or in UI elements where
 
 ![Small Button](/support/button-small.png "Small Button")
 
-*Dimensions*
+###### Dimensions
 
 Min-Width | Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 190px | 42px | 30px | Center | 18px | 8px | 1px
 
-*Variations*
+###### Variations
 
 ![Small Button Styles](/support/button-small-styles.png "Small Button Styles")
 
@@ -114,13 +114,13 @@ The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Chang
 
 The portal button is for 3rd party integrations. *Ex. Attaching cloud files to chat messages.*
 
-*Dimensions*
+###### Dimensions
 
 Outer Radius | Inner Radius | Vertical Margin | Horizontal Margin | Alignment | Max. No. / Row |
 --- | --- | --- | --- | --- | --- | --- | ---
 49px | 40px | 42px | 30px | Center | 4
 
-*Variations*
+###### Variations
 
 ![Portal Button Styles](/support/button-portal-styles.png "Portal Button Styles")
 
@@ -133,13 +133,13 @@ We use pills to help emphasize entities that we present in a list. Their main fu
 
 ![Pill](/support/pill.png "Pill")
 
-*Dimensions*
+###### Dimensions
 
 Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 20px | 20px | Left | 18px | 8px | 1px
 
-*Variations*
+###### Variations
 
 ![Pill Styles](/support/pill-styles.png "Pill Styles")
 
@@ -157,7 +157,7 @@ This is used for
 ###### Simple
 This is used for
 
-**<a id="cells">Cells</a>**
+**<a id="cells">Cell Format</a>**
 ![Cell Format](/support/cells.png "Cells")
 
 ## Dialogs
