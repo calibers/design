@@ -14,6 +14,9 @@ Home to Caliber design documentation & assets.
   * [Form Elements](#forms)
   * [Cells](#cells)
   * [Dialogs, Modals, & Alerts](#dialogs)
+    * [Basic (Save Search)](#modal)
+    * [Share Sheet](#sharesheet)
+    * [Attachments](#attachments)
   * [Icons](#icons)
   * [Messaging](#messaging)
   * [Navigation](#navigation)
@@ -150,11 +153,11 @@ There are two types of forms:
 This is used to change a user or organization's profile photo.<br/>
 *Ex. On the 'Edit Profile' screen*
 ###### Text Field
-This is used when entering or editing any amount of text.
+This is used when entering or editing any amount of text.<br/>
 *Ex. On the 'Edit Profile' screen*
 
 **<a id="cells">Form Format</a>**
-![Format](/support/forms.png "Forms")
+![Form Format](/support/forms.png "Forms")
 
 ## Cells
 
@@ -173,7 +176,21 @@ This is used when several options are listed, but respective images are not nece
 
 ## Dialogs
 
-Let's talk dialogs
+There are three types of dialogs:
+###### Basic (Save Search)
+This is used whenever a specific user is mentioned.<br/>
+*Ex. When displaying a user's open chats.*
+**<a id="cells">Cell Format</a>**
+![Cell Format](/support/cells.png "Cells")
+###### Share Sheet
+This is used when several options are listed.<br/>
+*Ex. On the home screen, as well as within the search interface.*
+**<a id="cells">Cell Format</a>**
+![Cell Format](/support/cells.png "Cells")
+###### Attachments
+This is used when several options are listed, but respective images are not necessary.
+**<a id="cells">Cell Format</a>**
+![Cell Format](/support/cells.png "Cells")
 
 ## Messaging
 
