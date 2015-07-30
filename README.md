@@ -21,12 +21,12 @@ Home to Caliber design documentation & assets.
     * [Notification](#basicmodal)
     * [Alert](#sharesheet)
   * [Navigation](#navigation)
-    * [iOS](#navigation)
-      * [Nav Bars](#basicmodal)
-      * [Tab Bar](#sharesheet)
-    * [Android](#navigation)
-      * [Next Gen](#navigation)
-      * [Conceptual](#navigation)
+    * [iOS](#ios)
+      * [Nav Bars](#navbars)
+      * [Tab Bar](#tabbar)
+    * [Android](#android)
+      * [Next Gen](#nextgen)
+      * [Conceptual](#conceptual)
   * [Messaging](#chat)
   * [Icons](#icons)
     * [Tab Bar](#icons-tab-passive)
@@ -234,36 +234,44 @@ This is the standard messaging interface.
 **<a id="chat"></a>**
 ![chat](/support/chat.png "Chat") <br/><br/>
 
-###### Layout
-This is used whenever a user would like to save something.
-<br/><br/>
-**<a id="icons-layout"></a>**
-![Icons Layout](/support/icons-layout.png "Icons Layout") <br/><br/>
-
 ## Navigation
 
 We respect native navigation patterns in both iOS and Android. As a result each the biggest difference between the two clients is the appearance and behavior of the main navigation.
 
 ###### iOS
-This is used whenever a user would like to save something.
+<br/>
+**<a id="navbar">Nav Bar</a>**
 <br/><br/>
-**<a id="icons-messaging"></a>**
-![Attach Messaging](/support/icons-messaging.png "Messaging Icons") <br/><br/>
+![Navbar Passive Search](/support/navbar-search-passive.png "Navbar Passive Search")
+<br/><br/>
+![Navbar Active Search](/support/navbar-search-active.png "Navbar Active Search")
+<br/><br/>
+![Navbar Options](/support/navbar-options.png "Navbar Options")
+<br/><br/>
+**<a id="tabbar">Tab Bar</a>**
+<br/><br/>
+![Tab Bar](/support/ios-tab.png "Tab Bar") <br/><br/>
 
 ###### Android
-For Fundamental Navigation
+<br/>
+**<a id="nextgen">Next Gen</a>**
 <br/><br/>
-**<a id="icons-tab-passive"></a>**
-![Next Gen](/support/icons-tab-passive.png "Passive Tab")
+![Next Gen](/support/android-nav.png "Next Gen")
 <br/><br/>
-This is used whenever a user would like to save something.
+**<a id="conceptual">Conceptual</a>**
 <br/><br/>
-**<a id="icons-tab-active"></a>**
-![Conceptual](/support/icons-tab-active.png "Active Tab") <br/><br/>
+![Conceptual](/support/android-nav-new.png "Conceptual")
+<br/><br/>
 
 ## Icons
 
 For the most part we use the same icons for iOS and Android. Sharing is an example of when we have different icons for both platforms since people are conditioned to a specific icon for that purpose.
+
+###### Layout
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-layout"></a>**
+![Icons Layout](/support/icons-layout.png "Icons Layout") <br/><br/>
 
 ###### Tab Bar
 For Fundamental Navigation
