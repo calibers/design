@@ -12,7 +12,7 @@ Home to Caliber design documentation & assets.
     * [Portal Button](#portal-button)
   * [Pills](#pills)
   * [Form Elements](#forms)
-  * [Display Cells](#display-cells)
+  * [Cells](#cells)
   * [Dialogs, Modals, & Alerts](#dialogs)
   * [Icons](#icons)
   * [Messaging](#messaging)
@@ -157,8 +157,8 @@ This is used for
 ###### Simple
 This is used for
 
-**<a id="display-cells">Display Cells</a>**
-![Display Cells](/support/cells-display.png "Display Cells")
+**<a id="cells">Cells</a>**
+![Cell Format](/support/cells.png "Cells")
 
 ## Dialogs
 
