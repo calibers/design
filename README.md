@@ -9,8 +9,8 @@ Home to Caliber design documentation & assets.
   * [Buttons](#buttons)
     * [Big Button](#big-button)
     * [Small Button](#small-button)
+    * [Portal Button](#portal-button)
   * [Pills](#pills)
-  * [Portals](#portals)
   * [Form Elements](#forms)
   * [Table Cells](#cells)
     * [Full (Lists of people contacts, conversation lists)](#person-cell)
@@ -104,6 +104,24 @@ Min-Width | Vertical Margin | Horizontal Margin | Alignment | Padding | Border R
 *Variations*
 
 ![Small Button Styles](/support/button-small-styles.png "Small Button Styles")
+
+**<a id="big-button">Big Button</a>**
+
+The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Changes’.*
+
+###### Button Format
+
+![Portal Button](/support/button-portal.png "Portal Button")
+
+*Dimensions*
+
+Outer Radius | Inner Radius | Vertical Margin | Horizontal Margin | Alignment | Max. No. / Row |
+--- | --- | --- | --- | --- | --- | --- | ---
+49px | 40px | 42px | 30px | Center | 18px | 4
+
+*Variations*
+
+![Portal Button Styles](/support/button-portal-styles.png "Portal Button Styles")
 
 
 ## Pills
