@@ -302,13 +302,13 @@ This is used whenever a user would like to append cloud files to messages.
 Nudges temporarily replace the navigation bar when they are summoned.
 
 **<a id="navbar-notify"></a>**
-###### Notification
+###### Notification - #1B91F5
 This appears if users receive new messages or other pings while they are inside the app.
 <br/><br/>
 ![Notify](/support/navbar-notify.png "Notify")
 
 **<a id="navbar-alert"></a>**
-###### Alert
+###### Alert - #FF513A
 This appears if a message failed to send or if the user loses internet connection while they are inside the app.
 <br/><br/>
 ![Alert](/support/navbar-alert.png "Alert") <br/><br/>
@@ -355,13 +355,13 @@ We respect native navigation patterns in both iOS and Android. As a result each 
 **<a id="ios"></a>**
 ###### iOS
 <br/>
-**<a id="navbar">Nav Bar</a>**
+**<a id="navbar">Nav Bar - #262D43</a>**
 <br/><br/>
-Passive Search
+Passive Search - Search Box is #1B1F2F
 <br/><br/>
 ![Navbar Passive Search](/support/navbar-search-passive.png "Navbar Passive Search")
 <br/><br/>
-Active Search
+Active Search - Search Box is #FFFFFF
 <br/><br/>
 ![Navbar Active Search](/support/navbar-search-active.png "Navbar Active Search")
 <br/><br/>
