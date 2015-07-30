@@ -145,7 +145,16 @@ Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Bord
 
 ## Forms
 
-Let's talk forms
+There are two types of forms:
+###### Upload Image
+This is used to change a user or organization's profile photo.<br/>
+*Ex. On the 'Edit Profile' screen*
+###### Text Field
+This is used when entering or editing any amount of text.
+*Ex. On the 'Edit Profile' screen*
+
+**<a id="cells">Form Format</a>**
+![Form Format](/support/forms.png "Forms")
 
 ## Cells
 
@@ -155,7 +164,7 @@ This is used whenever a specific user is mentioned.<br/>
 *Ex. When displaying a user's open chats.*
 ###### Search
 This is used when several options are listed.<br/>
-*Ex. On the home screen*, as well as within the search interface.
+*Ex. On the home screen, as well as within the search interface.*
 ###### Simple
 This is used when several options are listed, but respective images are not necessary.
 
