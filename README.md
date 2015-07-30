@@ -151,11 +151,13 @@ Let's talk forms
 
 There are three types of display cells:
 ###### Full
-This is used whenever a specific user is mentioned *Ex. When displaying a user's open chats.*
+This is used whenever a specific user is mentioned.
+*Ex. When displaying a user's open chats.*
 ###### Search
-This is used when several options are listed *Ex. On the home screen*, as well as within the search interface.
+This is used when several options are listed.
+*Ex. On the home screen*, as well as within the search interface.
 ###### Simple
-This is used when several options are listed, but they do not feature images.
+This is used when several options are listed, but respective images are not necessary.
 
 **<a id="cells">Cell Format</a>**
 ![Cell Format](/support/cells.png "Cells")
