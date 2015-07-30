@@ -110,6 +110,20 @@ Min-Width | Vertical Margin | Horizontal Margin | Alignment | Padding | Border R
 
 We use pills to help emphasize entities that we present in a list. Their main function is to make the information easier to process. *Ex: 'skills' and 'interests'.*
 
+###### Pill Format
+
+![Pill](/support/pill.png "Pill")
+
+*Dimensions*
+
+Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Border
+--- | --- | --- | --- | --- | --- | --- | ---
+20px | 20px | Left | 18px | 8px | 1px
+
+*Variations*
+
+![Pill Styles](/support/pill-styles.png "Pill Styles")
+
 ## Forms
 
 Let's talk forms
