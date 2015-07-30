@@ -10,6 +10,7 @@ Home to Caliber design documentation & assets.
     * [Big Button](#big-button)
     * [Small Button](#small-button)
   * [Pills](#pills)
+  * [Portals](#portals)
   * [Form Elements](#forms)
   * [Table Cells](#cells)
     * [Full (Lists of people contacts, conversation lists)](#person-cell)
@@ -28,7 +29,7 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 
 ###### Fonts
 
-[Typography](/support/typography.png "Typography")
+![Typography](/support/typography.png "Typography")
 
 
 **Base Fonts**
@@ -90,6 +91,19 @@ Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
 
 The small button is typically used for support functions or in UI elements where space is more limited. *Ex: ‘Cancel' or inside modals.*
 
+###### Button Format
+
+![Small Button](/support/button-small.png "Small Button")
+
+*Dimensions*
+
+Min-Width | Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Border
+--- | --- | --- | --- | --- | --- | --- | ---
+190px | 42px | 30px | Center | 18px | 8px | 1px
+
+*Variations*
+
+![Small Button Styles](/support/button-small-styles.png "Small Button Styles")
 
 
 ## Pills
