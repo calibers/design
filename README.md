@@ -6,25 +6,34 @@ Home to Caliber design documentation & assets.
 
 **1. Design Documentation**
   * [Typography](#typography)
+  * [Display Text](#text-display)
+  * [Form Elements](#forms)
+  * [Cells](#cells)
   * [Buttons](#buttons)
     * [Big Button](#big-button)
     * [Small Button](#small-button)
     * [Portal Button](#portal-button)
   * [Pills](#pills)
-  * [Form Elements](#forms)
-  * [Cells](#cells)
   * [Dialogs, Modals, & Alerts](#dialogs)
     * [Basic Modal](#basicmodal)
     * [Share Sheet](#sharesheet)
     * [Attachments](#attachments)
+    * [Notification](#basicmodal)
+    * [Alert](#sharesheet)
+  * [Navigation](#navigation)
+    * [iOS](#navigation)
+      * [Nav Bars](#basicmodal)
+      * [Tab Bar](#sharesheet)
+    * [Android](#navigation)
+      * [Next Gen](#navigation)
+      * [Conceptual](#navigation)
+  * [Messaging](#chat)
   * [Icons](#icons)
     * [Tab Bar](#icons-tab-passive)
     * [Profile](#sharesheet)
     * [Attachments](#attachments)
     * [Messaging](#attachments)
     * [Utility](#utility)
-  * [Messaging](#chat)
-  * [Navigation](#navigation)
 
 **2. Assets**
 
@@ -34,7 +43,7 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 
 ###### Fonts
 
-![Typography](/support/typography.png "Typography")
+![Typography](/support/typography.png "Typography") <br/><br/>
 
 
 ###### Base Fonts
@@ -72,65 +81,107 @@ Light Gray | #D9D9DC
 <dimen name=“big_bold_font_size" android:textStyle="bold">17sp</dimen>
 ```
 
+## Text Display
+
+Use 'Standard Bold' only when sub-headers are required.
+<br/>
+*Ex. Company name and description*
+<br/><br/>
+**<a id="text-display"></a>**
+![Text Display](/support/text-display.png "Text Display") <br/><br/>
+
+## Forms
+
+There are two types of forms. All form elements must be preceded by a 'Small Light-Gray' header.
+
+###### Upload Image
+This is used to change a user or organization's profile photo.
+<br/>
+*Ex. On the 'Edit Profile' screen*
+
+###### Text Field
+This is used when entering or editing any amount of text.
+<br/>
+*Ex. On the 'Edit Profile' screen*
+<br/><br/>
+**<a id="cells"></a>**
+![Form Format](/support/forms.png "Forms") <br/><br/>
+
+## Cells
+
+There are three types of display cells:
+
+###### Full
+This is used whenever a specific user is mentioned.
+<br/>
+*Ex. When displaying a user's open chats.*
+
+###### Search
+This is used when several options are listed.
+<br/>
+*Ex. On the home screen, as well as within the search interface.*
+
+###### Simple
+This is used when several options are listed, but respective images are not necessary.
+<br/><br/> **<a id="cells"></a>**
+![Cell Format](/support/cells.png "Cells") <br/><br/>
+
 ## Buttons
 
-**<a id="big-button">Big Button</a>**
+<br/><br/> **<a id="big-button">Big Button</a>**
 
 The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Changes’.*
 
 ###### Button Format
 
-![Large Button](/support/button-large.png "Large Button")
+![Large Button](/support/button-large.png "Large Button") <br/><br/>
 
 ###### Dimensions
 
 Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 498px | 98px | 42px | Center | 30px | 8px | 1px
-
+<br/>
 ###### Variations
 
-![Large Button Styles](/support/button-large-styles.png "Large Button Styles")
+![Large Button Styles](/support/button-large-styles.png "Large Button Styles") <br/><br/>
 
-**<a id="small-button">Small Button</a>**
+<br/><br/> **<a id="small-button">Small Button</a>**
 
 The small button is typically used for support functions or in UI elements where space is more limited. *Ex: ‘Cancel' or inside modals.*
 
 ###### Button Format
 
-![Small Button](/support/button-small.png "Small Button")
+![Small Button](/support/button-small.png "Small Button") <br/><br/>
 
 ###### Dimensions
 
 Min-Width | Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 190px | 42px | 30px | Center | 18px | 8px | 1px
-
+<br/>
 ###### Variations
 
-![Small Button Styles](/support/button-small-styles.png "Small Button Styles")
+![Small Button Styles](/support/button-small-styles.png "Small Button Styles") <br/><br/>
 
-**<a id="big-button">Big Button</a>**
+<br/><br/> **<a id="portal-button">Portal Button</a>**
 
-The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Changes’.*
+The portal button is for 3rd party integrations. *Ex. Attaching cloud files to chat messages.*
 
 ###### Button Format
 
 ![Portal Button](/support/button-portal.png "Portal Button")
-
-**<a id="portal-button">Portal Button</a>**
-
-The portal button is for 3rd party integrations. *Ex. Attaching cloud files to chat messages.*
+<br/><br/>
 
 ###### Dimensions
 
 Outer Radius | Inner Radius | Vertical Margin | Horizontal Margin | Alignment | Max. No. / Row |
 --- | --- | --- | --- | --- | --- | --- | ---
 49px | 40px | 42px | 30px | Center | 4
-
+<br/>
 ###### Variations
 
-![Portal Button Styles](/support/button-portal-styles.png "Portal Button Styles")
+![Portal Button Styles](/support/button-portal-styles.png "Portal Button Styles") <br/><br/>
 
 
 ## Pills
@@ -139,50 +190,17 @@ We use pills to help emphasize entities that we present in a list. Their main fu
 
 ###### Pill Format
 
-![Pill](/support/pill.png "Pill")
+![Pill](/support/pill.png "Pill") <br/><br/>
 
 ###### Dimensions
 
 Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 20px | 20px | Left | 18px | 8px | 1px
-
+<br/>
 ###### Variations
 
-![Pill Styles](/support/pill-styles.png "Pill Styles")
-
-## Forms
-
-There are two types of forms:
-
-###### Upload Image
-This is used to change a user or organization's profile photo.<br/><br/>
-*Ex. On the 'Edit Profile' screen*
-
-###### Text Field
-This is used when entering or editing any amount of text.<br/><br/>
-*Ex. On the 'Edit Profile' screen*
-
-**<a id="cells">Form Format</a>**
-![Form Format](/support/forms.png "Forms")
-
-## Cells
-
-There are three types of display cells:
-
-###### Full
-This is used whenever a specific user is mentioned.<br/><br/>
-*Ex. When displaying a user's open chats.*
-
-###### Search
-This is used when several options are listed.<br/><br/>
-*Ex. On the home screen, as well as within the search interface.*
-
-###### Simple
-This is used when several options are listed, but respective images are not necessary.
-
-**<a id="cells">Cell Format</a>**
-![Cell Format](/support/cells.png "Cells")
+![Pill Styles](/support/pill-styles.png "Pill Styles") <br/><br/>
 
 ## Dialogs
 
@@ -190,41 +208,58 @@ There are three types of dialogs:
 
 ###### Basic Modal
 This is used whenever a user would like to save something.
-<br/><br/>
+<br/>
 *Ex. Saved Searches.*
 <br/><br/>
 **<a id="basicmodal"></a>**
-![Modal](/support/modal.png "Modal")
+![Modal](/support/modal.png "Modal") <br/><br/>
 <br/><br/>
 
 ###### Share Sheet
-This is used whenever a user would like to share another's profile.
+This is used whenever a user would like to share content or choose other specialized options.
 <br/><br/>
 **<a id="sharesheet"></a>**
-![Share Sheet](/support/sharesheet.png "Share Sheet")
+![Share Sheet](/support/sharesheet.png "Share Sheet") <br/><br/>
 
 ###### Attachments
 This is used whenever a user would like to append cloud files to messages.
 <br/><br/>
 **<a id="Attachments"></a>**
-![Attachments](/support/attachments.png "Attachments")
+![Attachments](/support/attachments.png "Attachments") <br/><br/>
 
 ## Messaging
 
 This is the standard messaging interface.
 <br/><br/>
 **<a id="chat"></a>**
-![chat](/support/chat.png "Chat")
-
-## Navigation
-
-We respect native navigation patterns in both iOS and Android. As a result each the biggest difference between the two clients is the appearance and behavior of the main navigation.
+![chat](/support/chat.png "Chat") <br/><br/>
 
 ###### Layout
 This is used whenever a user would like to save something.
 <br/><br/>
 **<a id="icons-layout"></a>**
-![Icons Layout](/support/icons-layout.png "Icons Layout")
+![Icons Layout](/support/icons-layout.png "Icons Layout") <br/><br/>
+
+## Navigation
+
+We respect native navigation patterns in both iOS and Android. As a result each the biggest difference between the two clients is the appearance and behavior of the main navigation.
+
+###### iOS
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-messaging"></a>**
+![Attach Messaging](/support/icons-messaging.png "Messaging Icons") <br/><br/>
+
+###### Android
+For Fundamental Navigation
+<br/><br/>
+**<a id="icons-tab-passive"></a>**
+![Next Gen](/support/icons-tab-passive.png "Passive Tab")
+<br/><br/>
+This is used whenever a user would like to save something.
+<br/><br/>
+**<a id="icons-tab-active"></a>**
+![Conceptual](/support/icons-tab-active.png "Active Tab") <br/><br/>
 
 ## Icons
 
@@ -234,13 +269,12 @@ For the most part we use the same icons for iOS and Android. Sharing is an examp
 For Fundamental Navigation
 <br/><br/>
 **<a id="icons-tab-passive"></a>**
-
 ![Passive Tab](/support/icons-tab-passive.png "Passive Tab")
 <br/><br/>
 This is used whenever a user would like to save something.
 <br/><br/>
 **<a id="icons-tab-active"></a>**
-![Active Tab](/support/icons-tab-active.png "Active Tab")
+![Active Tab](/support/icons-tab-active.png "Active Tab") <br/><br/>
 
 ###### Profile
 For interacting with you or another user or organization's profile.
@@ -251,22 +285,22 @@ For interacting with you or another user or organization's profile.
 This is used whenever a user would like to save something.
 <br/><br/>
 **<a id="icons-profile-solid"></a>**
-![Profile Solid](/support/icons-profile-solid.png "Profile Solid")
+![Profile Solid](/support/icons-profile-solid.png "Profile Solid") <br/><br/>
 
 ###### Messaging
 This is used whenever a user would like to save something.
 <br/><br/>
 **<a id="icons-messaging"></a>**
-![Attach Messaging](/support/icons-messaging.png "Messaging Icons")
+![Attach Messaging](/support/icons-messaging.png "Messaging Icons") <br/><br/>
 
 ###### Attachments
 This is used whenever a user would like to save something.
 <br/><br/>
 **<a id="icons-attach"></a>**
-![Attach Icons](/support/icons-attach.png "Attach Icons")
+![Attach Icons](/support/icons-attach.png "Attach Icons") <br/><br/>
 
 ###### Utility
 This is used whenever a user would like to save something.
 <br/><br/>
 **<a id="icons-utility"></a>**
-![Utility Icons](/support/icons-utility.png "Utility Icons")
+![Utility Icons](/support/icons-utility.png "Utility Icons") <br/><br/>
