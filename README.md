@@ -8,6 +8,8 @@ Home to Caliber design documentation & assets.
   * [Typography](#typography)
   * [Display Text](#text-display)
   * [Form Elements](#forms)
+    * [Form Elements](#standardform)
+    * [Form Elements](#signin)
   * [Cells](#cells)
   * [Buttons](#buttons)
     * [Big Button](#big-button)
@@ -90,9 +92,12 @@ Use 'Standard Bold' only when sub-headers are required.
 **<a id="text-display"></a>**
 ![Text Display](/support/text-display.png "Text Display") <br/><br/>
 
+**<a id="forms"></a>**
 ## Forms
 
-There are two types of forms. All form elements must be preceded by a 'Small Light-Gray' header.
+There are two variations of form entry elements. All form elements must be preceded by a 'Small Light-Gray' header.
+
+**<a id="standardform"></a>**
 
 ###### Upload Image
 This is used to change a user or organization's profile photo.
@@ -104,8 +109,30 @@ This is used when entering or editing any amount of text.
 <br/>
 *Ex. On the 'Edit Profile' screen*
 <br/><br/>
-**<a id="cells"></a>**
 ![Form Format](/support/forms.png "Forms") <br/><br/>
+
+**<a id="signin"></a>**
+
+###### Sign In
+Sign in forms are based on standard text field elements. These are used when the user needs to provide his or her account information.
+<br/>
+*Ex. During the on-boarding process*
+<br/><br/>
+The password field placeholders change color depending on the level of password completion.
+<br/>
+
+**<a>Rules</a>**
+
+* If password < 8 characters, become red, remaining characters become dark blue outline;
+* If password = 8 characters, but missing numbers or capitalized characters, become yellow;
+* If password = 8 characters, and contains numbers and capitalized characters, become green;
+
+* If password state = red or yellow, and user submits entry, show alert icon and red cell;
+* If password state = green, show green cell;
+<br/><br/>
+![Form Format](/support/signin.png "Forms") <br/><br/>
+
+**<a id="cells"></a>**
 
 ## Cells
 
@@ -242,9 +269,15 @@ We respect native navigation patterns in both iOS and Android. As a result each 
 <br/>
 **<a id="navbar">Nav Bar</a>**
 <br/><br/>
+Passive Search
+<br/><br/>
 ![Navbar Passive Search](/support/navbar-search-passive.png "Navbar Passive Search")
 <br/><br/>
+Active Search
+<br/><br/>
 ![Navbar Active Search](/support/navbar-search-active.png "Navbar Active Search")
+<br/><br/>
+Standard Elements
 <br/><br/>
 ![Navbar Options](/support/navbar-options.png "Navbar Options")
 <br/><br/>
