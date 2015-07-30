@@ -154,9 +154,11 @@ Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Bord
 ## Forms
 
 There are two types of forms:
+
 ###### Upload Image
 This is used to change a user or organization's profile photo.<br/><br/>
 *Ex. On the 'Edit Profile' screen*
+
 ###### Text Field
 This is used when entering or editing any amount of text.<br/><br/>
 *Ex. On the 'Edit Profile' screen*
@@ -167,12 +169,15 @@ This is used when entering or editing any amount of text.<br/><br/>
 ## Cells
 
 There are three types of display cells:
+
 ###### Full
 This is used whenever a specific user is mentioned.<br/><br/>
 *Ex. When displaying a user's open chats.*
+
 ###### Search
 This is used when several options are listed.<br/><br/>
 *Ex. On the home screen, as well as within the search interface.*
+
 ###### Simple
 This is used when several options are listed, but respective images are not necessary.
 
@@ -182,6 +187,7 @@ This is used when several options are listed, but respective images are not nece
 ## Dialogs
 
 There are three types of dialogs:
+
 ###### Basic Modal
 This is used whenever a user would like to save something.
 <br/><br/>
@@ -190,11 +196,13 @@ This is used whenever a user would like to save something.
 **<a id="basicmodal"></a>**
 ![Modal](/support/modal.png "Modal")
 <br/><br/>
+
 ###### Share Sheet
 This is used whenever a user would like to share another's profile.
 <br/><br/>
 **<a id="sharesheet"></a>**
 ![Share Sheet](/support/sharesheet.png "Share Sheet")
+
 ###### Attachments
 This is used whenever a user would like to append cloud files to messages.
 <br/><br/>
