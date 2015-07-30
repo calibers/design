@@ -14,7 +14,7 @@ Home to Caliber design documentation & assets.
   * [Form Elements](#forms)
   * [Cells](#cells)
   * [Dialogs, Modals, & Alerts](#dialogs)
-    * [Basic (Save Search)](#modal)
+    * [Basic Modal (Save Search)](#basicmodal)
     * [Share Sheet](#sharesheet)
     * [Attachments](#attachments)
   * [Icons](#icons)
@@ -177,11 +177,11 @@ This is used when several options are listed, but respective images are not nece
 ## Dialogs
 
 There are three types of dialogs:
-###### Basic (Save Search)
+###### Basic Modal (Save Search)
 This is used whenever a specific user is mentioned.<br/>
 *Ex. When displaying a user's open chats.*
-**<a id="cells">Cell Format</a>**
-![Cell Format](/support/cells.png "Cells")
+**<a id="basicmodal">Basic Modal (Save Search)</a>**
+![Modal](/support/modal.png "Modal")
 ###### Share Sheet
 This is used when several options are listed.<br/>
 *Ex. On the home screen, as well as within the search interface.*
