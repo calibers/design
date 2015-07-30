@@ -22,7 +22,7 @@ Home to Caliber design documentation & assets.
     * [Alert](#sharesheet)
   * [Navigation](#navigation)
     * [iOS](#ios)
-      * [Nav Bars](#navbars)
+      * [Nav Bars](#navbar)
       * [Tab Bar](#tabbar)
     * [Android](#android)
       * [Next Gen](#nextgen)
