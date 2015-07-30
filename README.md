@@ -5,6 +5,7 @@ Home to Caliber design documentation & assets.
 ## Contents
 
 **1. Design Documentation**
+  * [Layout](#layout)
   * [Typography](#typography)
   * [Display Text](#text-display)
   * [Form Elements](#forms)
@@ -16,12 +17,16 @@ Home to Caliber design documentation & assets.
     * [Small Button](#small-button)
     * [Portal Button](#portal-button)
   * [Pills](#pills)
-  * [Dialogs, Modals, & Alerts](#dialogs)
+  * [Dialogs, Modals](#dialogs)
     * [Basic Modal](#basicmodal)
     * [Share Sheet](#sharesheet)
     * [Attachments](#attachments)
+  * [Nudges](#nudges)
     * [Notification](#navbar-notify)
     * [Alert](#navbar-alert)
+  * [Messaging](#chat)
+  * [Profile](#profile)
+  * [Feature](#feature)
   * [Navigation](#navigation)
     * [iOS](#ios)
       * [Nav Bars](#navbar)
@@ -29,16 +34,30 @@ Home to Caliber design documentation & assets.
     * [Android](#android)
       * [Next Gen](#nextgen)
       * [Conceptual](#conceptual)
-  * [Messaging](#chat)
   * [Icons](#icons)
-    * [Tab Bar](#icons-tab-passive)
-    * [Profile](#sharesheet)
-    * [Attachments](#attachments)
-    * [Messaging](#attachments)
-    * [Utility](#utility)
+    * [Tab Bar](#icons-tab)
+      * [Passive](#icons-tab-passive)
+      * [Active](#icons-tab-active)
+    * [Profile](#icons-profile)
+      * [Outline](#icons-profile-outline)
+      * [Solid](#icons-profile-solid)
+    * [Attachments](#icons-attachments)
+    * [Messaging](#icons-chat)
+    * [Utility](#icons-utility)
 
 **2. Assets**
+**<a id="layout"></a>**
+## Layout
 
+Top and bottom margins only apply to
+beginning and end of page content.<br/>
+In any other instance,
+content is allowed to bleed.
+<br/><br/>
+**<a id="text-display"></a>**
+![Text Display](/support/margins.png "Text Display") <br/><br/>
+
+**<a id="typography"></a>**
 ## Typography
 
 We use Open Sans on both iOS and Android to stay consistent across platforms removing the need to create multiple variations while prototyping. To help ease the process of scaling fonts they're listed here in points.
@@ -82,7 +101,7 @@ Light Gray | #D9D9DC
 ```
 <dimen name=“big_bold_font_size" android:textStyle="bold">17sp</dimen>
 ```
-
+**<a id="text-display"></a>**
 ## Text Display
 
 Use 'Standard Bold' only when sub-headers are required.
@@ -155,7 +174,7 @@ This is used when several options are listed, but respective images are not nece
 
 ## Buttons
 
-<br/><br/> **<a id="big-button">Big Button</a>**
+**<a id="big-button">Big Button</a>**
 
 The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Changes’.*
 
@@ -248,39 +267,69 @@ This is used whenever a user would like to share content or choose other special
 **<a id="sharesheet"></a>**
 ![Share Sheet](/support/sharesheet.png "Share Sheet") <br/><br/>
 
+**<a id="attachments"></a>**
 ###### Attachments
 This is used whenever a user would like to append cloud files to messages.
 <br/><br/>
-**<a id="attachments"></a>**
 ![Attachments](/support/attachments.png "Attachments") <br/><br/>
 
+**<a id="nudges"></a>**
 ## Nudges
 
-There are three types of dialogs:
+Nudges temporarily replace the navigation bar when they are summoned.
 
-###### Notification
-This is used whenever a user would like to append cloud files to messages.
-<br/><br/>
 **<a id="navbar-notify"></a>**
-![Notify](/support/navbar-notify.png "Notify") <br/><br/>
-
-###### Alert
-This is used whenever a user would like to append cloud files to messages.
+###### Notification
+This appears if users receive new messages or other pings while they are inside the app.
 <br/><br/>
+![Notify](/support/navbar-notify.png "Notify")
+
 **<a id="navbar-alert"></a>**
+###### Alert
+This appears if a message failed to send or if the user loses internet connection while they are inside the app.
+<br/><br/>
 ![Alert](/support/navbar-alert.png "Alert") <br/><br/>
 
+**<a id="chat"></a>**
 ## Messaging
 
 This is the standard messaging interface.
 <br/><br/>
-**<a id="chat"></a>**
 ![chat](/support/chat.png "Chat") <br/><br/>
 
+**<a id="profile"></a>**
+## Profile
+
+This applies to one's own, as well as all other profiles.
+<br/><br/>
+**<a id="profile"></a>**
+![Profile](/support/profile.png "Profile") <br/><br/>
+
+**<a id="feature"></a>**
+## Feature
+
+This applies to one's own, as well as all other profiles.
+<br/><br/>
+![Feature](/support/feature.png "Feature") <br/><br/>
+
+**<a>Text Shadow - Big Bold</a>**
+
+Color | Opacity | Blur
+--- | --- | --- |
+#000000 | 0.8 | 20px
+
+**<a>Text Shadow - Small Italic</a>**
+
+Color | Opacity | Blur
+--- | --- | --- |
+#000000 | 1 | 20px
+
+<br/>
 ## Navigation
 
 We respect native navigation patterns in both iOS and Android. As a result each the biggest difference between the two clients is the appearance and behavior of the main navigation.
 
+**<a id="ios"></a>**
 ###### iOS
 <br/>
 **<a id="navbar">Nav Bar</a>**
@@ -301,6 +350,7 @@ Standard Elements
 <br/><br/>
 ![Tab Bar](/support/ios-tab.png "Tab Bar") <br/><br/>
 
+**<a id="android"></a>**
 ###### Android
 <br/>
 **<a id="nextgen">Next Gen</a>**
@@ -312,52 +362,55 @@ Standard Elements
 ![Conceptual](/support/android-nav-new.png "Conceptual")
 <br/><br/>
 
+**<a id="icons"></a>**
 ## Icons
 
 For the most part we use the same icons for iOS and Android. Sharing is an example of when we have different icons for both platforms since people are conditioned to a specific icon for that purpose.
 
-###### Layout
-This is used whenever a user would like to save something.
-<br/><br/>
 **<a id="icons-layout"></a>**
+###### Layout
+Icons are center and middle-aligned within the respective bounding box.
+<br/><br/>
 ![Icons Layout](/support/icons-layout.png "Icons Layout") <br/><br/>
 
+**<a id="icons-tab"></a>**
 ###### Tab Bar
 For Fundamental Navigation
 <br/><br/>
-**<a id="icons-tab-passive"></a>**
+**<a id="icons-tab-passive">Passive</a>**
+<br/><br/>
 ![Passive Tab](/support/icons-tab-passive.png "Passive Tab")
 <br/><br/>
-This is used whenever a user would like to save something.
+**<a id="icons-tab-active">Active</a>**
 <br/><br/>
-**<a id="icons-tab-active"></a>**
 ![Active Tab](/support/icons-tab-active.png "Active Tab") <br/><br/>
 
+**<a id="icons-profile"></a>**
 ###### Profile
-For interacting with you or another user or organization's profile.
+For interacting with you, another user, or organization's profile.
 <br/><br/>
-**<a id="icons-profile-outline"></a>**
+**<a id="icons-profile-outline">Outline</a>**
+<br/><br/>
 ![Profile Outline](/support/icons-profile-outline.png "Profile Outline")
 <br/><br/>
-This is used whenever a user would like to save something.
+**<a id="icons-profile-solid">Solid</a>**
 <br/><br/>
-**<a id="icons-profile-solid"></a>**
 ![Profile Solid](/support/icons-profile-solid.png "Profile Solid") <br/><br/>
 
+**<a id="icons-chat"></a>**
 ###### Messaging
-This is used whenever a user would like to save something.
+For expanding or collapsing options.
 <br/><br/>
-**<a id="icons-messaging"></a>**
 ![Attach Messaging](/support/icons-messaging.png "Messaging Icons") <br/><br/>
 
 ###### Attachments
-This is used whenever a user would like to save something.
+For attaching items to a message.
 <br/><br/>
 **<a id="icons-attach"></a>**
 ![Attach Icons](/support/icons-attach.png "Attach Icons") <br/><br/>
 
 ###### Utility
-This is used whenever a user would like to save something.
+For navigating screens and visual feedback.
 <br/><br/>
 **<a id="icons-utility"></a>**
 ![Utility Icons](/support/icons-utility.png "Utility Icons") <br/><br/>
