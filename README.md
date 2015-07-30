@@ -46,6 +46,8 @@ Home to Caliber design documentation & assets.
     * [Messaging](#icons-chat)
     * [Utility](#icons-utility)
 
+<br/>
+
 **2. Assets**
 **<a id="layout"></a>**
 ## Layout
