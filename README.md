@@ -185,12 +185,12 @@ This is used whenever a specific user is mentioned.<br/>
 ###### Share Sheet
 This is used when several options are listed.<br/>
 *Ex. On the home screen, as well as within the search interface.*
-**<a id="cells">Cell Format</a>**
-![Cell Format](/support/cells.png "Cells")
+**<a id="sharesheet">Share Sheet</a>**
+![Share Sheet](/support/sharesheet.png "Share Sheet")
 ###### Attachments
 This is used when several options are listed, but respective images are not necessary.
-**<a id="cells">Cell Format</a>**
-![Cell Format](/support/cells.png "Cells")
+**<a id="Attachments">Attachments</a>**
+![Attachments](/support/attachments.png "Attachments")
 
 ## Messaging
 
