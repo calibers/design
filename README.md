@@ -182,18 +182,18 @@ This is used whenever a user would like to save something.
 <br/>
 *Ex. Saved Searches.*
 <br/>
-**<a id="basicmodal">Basic Modal</a>**
+**<a id="basicmodal"></a>**
 ![Modal](/support/modal.png "Modal")
 <br/>
 ###### Share Sheet
 This is used whenever a user would like to share another's profile.
 <br/>
-**<a id="sharesheet">Share Sheet</a>**
+**<a id="sharesheet"></a>**
 ![Share Sheet](/support/sharesheet.png "Share Sheet")
 ###### Attachments
 This is used whenever a user would like to append cloud files to messages.
 <br/>
-**<a id="Attachments">Attachments</a>**
+**<a id="Attachments"></a>**
 ![Attachments](/support/attachments.png "Attachments")
 
 ## Messaging
