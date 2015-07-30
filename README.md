@@ -8,8 +8,8 @@ Home to Caliber design documentation & assets.
   * [Typography](#typography)
   * [Display Text](#text-display)
   * [Form Elements](#forms)
-    * [Form Elements](#standardform)
-    * [Form Elements](#signin)
+    * [Standard](#standardform)
+    * [Sign-in](#signin)
   * [Cells](#cells)
   * [Buttons](#buttons)
     * [Big Button](#big-button)
@@ -20,8 +20,8 @@ Home to Caliber design documentation & assets.
     * [Basic Modal](#basicmodal)
     * [Share Sheet](#sharesheet)
     * [Attachments](#attachments)
-    * [Notification](#basicmodal)
-    * [Alert](#sharesheet)
+    * [Notification](#navbar-notify)
+    * [Alert](#navbar-alert)
   * [Navigation](#navigation)
     * [iOS](#ios)
       * [Nav Bars](#navbar)
@@ -251,8 +251,24 @@ This is used whenever a user would like to share content or choose other special
 ###### Attachments
 This is used whenever a user would like to append cloud files to messages.
 <br/><br/>
-**<a id="Attachments"></a>**
+**<a id="attachments"></a>**
 ![Attachments](/support/attachments.png "Attachments") <br/><br/>
+
+## Nudges
+
+There are three types of dialogs:
+
+###### Notification
+This is used whenever a user would like to append cloud files to messages.
+<br/><br/>
+**<a id="navbar-notify"></a>**
+![Notify](/support/navbar-notify.png "Notify") <br/><br/>
+
+###### Alert
+This is used whenever a user would like to append cloud files to messages.
+<br/><br/>
+**<a id="navbar-alert"></a>**
+![Alert](/support/navbar-alert.png "Alert") <br/><br/>
 
 ## Messaging
 
