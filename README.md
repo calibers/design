@@ -16,6 +16,7 @@ Home to Caliber design documentation & assets.
     * [Full (Lists of people contacts, conversation lists)](#person-cell)
     * [Search (List attributes, people)](#search-cell)
     * [Simple (No images)](#form-cell)
+    * [Together](#together-cell)
   * [Dialogs, Modals, & Alerts](#dialogs)
   * [Icons](#icons)
   * [Messaging](#messaging)
@@ -161,6 +162,8 @@ Let's talk forms
 **<a id="search-cell">Simple</a>**
 ![Form Cell](/support/form-cell.png "Form list")
 
+**<a id="together-cell">Together</a>**
+![Form Cell](/support/together-cell.png "Together")
 
 ## Dialogs
 
