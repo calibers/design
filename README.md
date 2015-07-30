@@ -14,9 +14,6 @@ Home to Caliber design documentation & assets.
   * [Cells](#cells)
   * [Cards](#cards)
   * [Buttons](#buttons)
-  <!---
-    * [Color Styles](#button-colorstyles)
-  -->
     * [Large Button](#large-button)
     * [Small Button](#small-button)
     * [Portal Button](#portal-button)
