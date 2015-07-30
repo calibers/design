@@ -18,7 +18,7 @@ Home to Caliber design documentation & assets.
     * [Share Sheet](#sharesheet)
     * [Attachments](#attachments)
   * [Icons](#icons)
-  * [Messaging](#messaging)
+  * [Messaging](#chat)
   * [Navigation](#navigation)
 
 **2. Assets**
@@ -198,7 +198,12 @@ This is used whenever a user would like to append cloud files to messages.
 
 ## Messaging
 
-Let's talk messaging
+This is used whenever a user would like to save something.
+<br/>
+*Ex. Saved Searches.*
+<br/>
+**<a id="chat"></a>**
+![chat](/support/chat.png "Chat")
 
 ## Navigation
 
