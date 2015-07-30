@@ -151,7 +151,7 @@ Let's talk forms
 
 There are three types of display cells:
   * [Full]
-    [This is used for]
+    This is used for
   * [Search]
     [Full]
   * [Simple]
