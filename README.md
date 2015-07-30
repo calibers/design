@@ -12,8 +12,12 @@ Home to Caliber design documentation & assets.
     * [Standard](#standardform)
     * [Sign-in](#signin)
   * [Cells](#cells)
+  * [Cards](#cards)
   * [Buttons](#buttons)
-    * [Big Button](#big-button)
+  <!---
+    * [Color Styles](#button-colorstyles)
+  -->
+    * [Large Button](#large-button)
     * [Small Button](#small-button)
     * [Portal Button](#portal-button)
   * [Pills](#pills)
@@ -152,7 +156,6 @@ The password field placeholders change color depending on the level of password 
 ![Form Format](/support/signin.png "Forms") <br/><br/>
 
 **<a id="cells"></a>**
-
 ## Cells
 
 There are three types of display cells:
@@ -172,9 +175,29 @@ This is used when several options are listed, but respective images are not nece
 <br/><br/> **<a id="cells"></a>**
 ![Cell Format](/support/cells.png "Cells") <br/><br/>
 
-## Buttons
+**<a id="cards"></a>**
+## Cards
 
-**<a id="big-button">Big Button</a>**
+There are two types of cards:
+
+###### Small
+This is used most of the time.
+
+###### Large
+This is used when space is not a concern.
+<br/>
+*Ex. Sponsored content, visual attachments.*
+<br/><br/>
+![Cell Format](/support/cards.png "Cells") <br/><br/>
+
+## Buttons
+<!---
+**<a id="button-colorstyles">Color Styles</a>**
+
+![Button Color Styles](/support/button-styles.png "Button Color Styles")
+-->
+
+**<a id="large-button">Large Button</a>**
 
 The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Changes’.*
 
@@ -187,12 +210,13 @@ The large button is for critical operations. *Ex: ‘Sign Out’ & ‘Save Chang
 Width | Height | Vertical Margin | Alignment | Padding | Border Radius | Border
 --- | --- | --- | --- | --- | --- | --- | ---
 498px | 98px | 42px | Center | 30px | 8px | 1px
-<br/>
+
 ###### Variations
 
-![Large Button Styles](/support/button-large-styles.png "Large Button Styles") <br/><br/>
+![Large Button Styles](/support/button-large-styles.png "Large Button Styles")
+<br/><br/>
 
-<br/><br/> **<a id="small-button">Small Button</a>**
+**<a id="small-button">Small Button</a>**
 
 The small button is typically used for support functions or in UI elements where space is more limited. *Ex: ‘Cancel' or inside modals.*
 
@@ -208,7 +232,7 @@ Min-Width | Vertical Margin | Horizontal Margin | Alignment | Padding | Border R
 <br/>
 ###### Variations
 
-![Small Button Styles](/support/button-small-styles.png "Small Button Styles") <br/><br/>
+![Small Button Styles](/support/button-small-styles.png "Small Button Styles")
 
 <br/><br/> **<a id="portal-button">Portal Button</a>**
 
