@@ -12,11 +12,7 @@ Home to Caliber design documentation & assets.
     * [Portal Button](#portal-button)
   * [Pills](#pills)
   * [Form Elements](#forms)
-  * [Table Cells](#cells)
-    * [Full (Lists of people contacts, conversation lists)](#person-cell)
-    * [Search (List attributes, people)](#search-cell)
-    * [Simple (No images)](#form-cell)
-    * [Together](#together-cell)
+  * [Display Cells](#display-cells)
   * [Dialogs, Modals, & Alerts](#dialogs)
   * [Icons](#icons)
   * [Messaging](#messaging)
@@ -153,17 +149,16 @@ Let's talk forms
 
 ## Cells
 
-**<a id="person-cell">Full</a>**
-![People Cell](/support/person-cell.png "List of people")
+There are three types of display cells:
+  * [Full]
+    [This is used for]
+  * [Search]
+    [Full]
+  * [Simple]
+    [Full]
 
-**<a id="search-cell">Search</a>**
-![Search Cell](/support/search-cell.png "Search list")
-
-**<a id="search-cell">Simple</a>**
-![Form Cell](/support/form-cell.png "Form list")
-
-**<a id="together-cell">Together</a>**
-![Form Cell](/support/together-cell.png "Together")
+**<a id="display-cells">Display Cells</a>**
+![Display Cells](/support/cells-display.png "Display Cells")
 
 ## Dialogs
 
