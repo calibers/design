@@ -28,7 +28,7 @@ We use Open Sans on both iOS and Android to stay consistent across platforms rem
 
 ###### Fonts
 
-![Typography](/support/typography.png "Typography")
+[Typography](/support/typography.png "Typography")
 
 
 **Base Fonts**
