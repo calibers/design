@@ -1,3 +1,6 @@
+# Sample Request
+# file=discover-25 new=discover ios=25 android=48 ./changify.sh
+
 
 #iOS Resize
 ios1=$ios
