@@ -225,9 +225,9 @@ The small button is typically used for support functions or in UI elements where
 
 ###### Dimensions
 
-Min-Width | Vertical Margin | Horizontal Margin | Alignment | Padding | Border Radius | Border
---- | --- | --- | --- | --- | --- | --- | ---
-190px | 42px | 30px | Center | 18px | 8px | 1px
+Min-Width | Vertical Margin | Horizontal Margin | Alignment | Vertical Padding | Horizontal Padding | Border Radius | Border
+--- | --- | --- | --- | --- | --- | --- | --- | ---
+190px | 42px | 30px | Center | 10px | 18px | 8px | 1px
 <br/>
 ###### Variations
 
@@ -324,9 +324,22 @@ This is the standard messaging interface.
 ## Profile
 
 This applies to one's own, as well as all other profiles.
+
+**<a id="navbar-notify"></a>**
+###### Full
+This appears if users receive new messages or other pings while they are inside the app.
 <br/><br/>
-**<a id="profile"></a>**
 ![Profile](/support/profile.png "Profile") <br/><br/>
+
+**<a id="navbar-alert"></a>**
+###### Card
+This appears if a message failed to send or if the user loses internet connection while they are inside the app.
+<br/><br/>
+![Profile-Card](/support/profile-card.png "Profile Card") <br/><br/>
+
+Vertical Margin | Border Radius
+--- | --- | --- |
+20px | 8px
 
 **<a id="feature"></a>**
 ## Feature
