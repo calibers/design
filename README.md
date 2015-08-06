@@ -27,6 +27,8 @@ Home to Caliber design documentation & assets.
     * [Alert](#navbar-alert)
   * [Messaging](#chat)
   * [Profile](#profile)
+    * [Full](#profile-full)
+    * [Card](#profile-card)
   * [Feature](#feature)
   * [Navigation](#navigation)
     * [iOS](#ios)
@@ -325,13 +327,13 @@ This is the standard messaging interface.
 
 This applies to one's own, as well as all other profiles.
 
-**<a id="navbar-notify"></a>**
+**<a id="profile-full"></a>**
 ###### Full
 This appears if users receive new messages or other pings while they are inside the app.
 <br/><br/>
-![Profile](/support/profile.png "Profile") <br/><br/>
+![Profile-Full](/support/profile.png "Profile Full") <br/><br/>
 
-**<a id="navbar-alert"></a>**
+**<a id="profile-card"></a>**
 ###### Card
 This appears if a message failed to send or if the user loses internet connection while they are inside the app.
 <br/><br/>
