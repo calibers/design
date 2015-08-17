@@ -1,5 +1,7 @@
 # Sample Request
-# file=discover-25 new=discover ios=25 android=48 ./changify.sh
+# file=Favorite_Blue_Solid new=save_active ios=22 android=30 ./changify.sh
+
+
 
 
 #iOS Resize
@@ -20,7 +22,7 @@ xhdpi=$((mdpi * 2))
 xxhdpi=$((mdpi * 3))
 
 # Make a new directory if it doesn't exist and resize photos
-convert ${file}.png -resize ${mdpi}x${mdpi} ../android/res/drawable-mdpi/${new}.png
-convert ${file}.png -resize ${hdpi}x${hdpi} ../android/res/drawable-hdpi/${new}.png
-convert ${file}.png -resize ${xhdpi}x${xhdpi} ../android/res/drawable-xhdpi/${new}.png
-convert ${file}.png -resize ${xxhdpi}x${xxhdpi} ../android/res/drawable-xxhdpi/${new}.png
+convert ${file}.png -resize ${mdpi}x${mdpi} ../android/res/drawable-mdpi/ic_${new}.png
+convert ${file}.png -resize ${hdpi}x${hdpi} ../android/res/drawable-hdpi/ic_${new}.png
+convert ${file}.png -resize ${xhdpi}x${xhdpi} ../android/res/drawable-xhdpi/ic_${new}.png
+convert ${file}.png -resize ${xxhdpi}x${xxhdpi} ../android/res/drawable-xxhdpi/ic_${new}.png
