@@ -2,7 +2,7 @@
 # file=Favorite_Blue_Solid new=save_active ios=22 android=30 ./changify.sh
 
 
-# file=signup-step1 new=signup1 ios=250 android=250 ./changify.sh
+# file=signup-step3-image new=signup3 ios=250 android=250 ./changify.sh
 
 
 
