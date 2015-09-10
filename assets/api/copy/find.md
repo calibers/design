@@ -14,7 +14,7 @@
            {
                "type": "popular",
                "title": "People Looking For Me",
-               "description": "Based on people their interest in meeting Founders",
+               "description": "Based on their interest in meeting Founders",
                "image": "AN IMAGE URL HERE",
                "query": {
                    "type": "myrole",
